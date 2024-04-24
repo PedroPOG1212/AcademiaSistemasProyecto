@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AcademiaSistemasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Calificacion">
+    <Key>
+      <PropertyRef Name="CalificacionID" />
+    </Key>
+    <Property Name="CalificacionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Estudiante_id" Type="Int32" />
+    <Property Name="Curso_id" Type="Int32" />
+    <Property Name="Fecha_evaluacion" Type="DateTime" Precision="0" />
+    <Property Name="Calificacion1" Type="Double" />
+    <NavigationProperty Name="Curso" Relationship="Self.FK__Calificac__Curso__403A8C7D" FromRole="Calificacion" ToRole="Curso" />
+    <NavigationProperty Name="Estudiante" Relationship="Self.FK__Calificac__Estud__3F466844" FromRole="Calificacion" ToRole="Estudiante" />
+  </EntityType>
+  <EntityType Name="Curso">
+    <Key>
+      <PropertyRef Name="CursoID" />
+    </Key>
+    <Property Name="CursoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Duracion" Type="Int32" />
+    <Property Name="Costo" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Profesor_id" Type="Int32" />
+    <Property Name="Estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Calificacions" Relationship="Self.FK__Calificac__Curso__403A8C7D" FromRole="Curso" ToRole="Calificacion" />
+    <NavigationProperty Name="Inscripcions" Relationship="Self.FK__Inscripci__Curso__3B75D760" FromRole="Curso" ToRole="Inscripcion" />
+  </EntityType>
+  <EntityType Name="Estudiante">
+    <Key>
+      <PropertyRef Name="EstudianteID" />
+    </Key>
+    <Property Name="EstudianteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Documento" Type="Int32" />
+    <Property Name="fecha_nacimiento" Type="DateTime" Precision="0" />
+    <Property Name="Genero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Estado_pago" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Calificacions" Relationship="Self.FK__Calificac__Estud__3F466844" FromRole="Estudiante" ToRole="Calificacion" />
+    <NavigationProperty Name="Inscripcions" Relationship="Self.FK__Inscripci__Estud__3C69FB99" FromRole="Estudiante" ToRole="Inscripcion" />
+  </EntityType>
+  <EntityType Name="Inscripcion">
+    <Key>
+      <PropertyRef Name="InscripcionID" />
+    </Key>
+    <Property Name="InscripcionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fecha_inscripcion" Type="DateTime" Precision="0" />
+    <Property Name="Curso_id" Type="Int32" />
+    <Property Name="Estudiante_id" Type="Int32" />
+    <Property Name="Estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Curso" Relationship="Self.FK__Inscripci__Curso__3B75D760" FromRole="Inscripcion" ToRole="Curso" />
+    <NavigationProperty Name="Estudiante" Relationship="Self.FK__Inscripci__Estud__3C69FB99" FromRole="Inscripcion" ToRole="Estudiante" />
+    <NavigationProperty Name="Pagoes" Relationship="Self.FK__Pago__Inscripcio__4316F928" FromRole="Inscripcion" ToRole="Pago" />
+  </EntityType>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="PagoID" />
+    </Key>
+    <Property Name="PagoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="InscripcionID" Type="Int32" />
+    <Property Name="MetodoPago" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FechaPago" Type="DateTime" Precision="0" />
+    <Property Name="Monto" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Inscripcion" Relationship="Self.FK__Pago__Inscripcio__4316F928" FromRole="Pago" ToRole="Inscripcion" />
+  </EntityType>
+  <EntityType Name="Profesor">
+    <Key>
+      <PropertyRef Name="ProfesorID" />
+    </Key>
+    <Property Name="ProfesorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Documento" Type="Int32" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Especialidad" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__Calificac__Curso__403A8C7D">
+    <End Role="Curso" Type="Self.Curso" Multiplicity="0..1" />
+    <End Role="Calificacion" Type="Self.Calificacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Curso">
+        <PropertyRef Name="CursoID" />
+      </Principal>
+      <Dependent Role="Calificacion">
+        <PropertyRef Name="Curso_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Calificac__Estud__3F466844">
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="0..1" />
+    <End Role="Calificacion" Type="Self.Calificacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estudiante">
+        <PropertyRef Name="EstudianteID" />
+      </Principal>
+      <Dependent Role="Calificacion">
+        <PropertyRef Name="Estudiante_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Inscripci__Curso__3B75D760">
+    <End Role="Curso" Type="Self.Curso" Multiplicity="0..1" />
+    <End Role="Inscripcion" Type="Self.Inscripcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Curso">
+        <PropertyRef Name="CursoID" />
+      </Principal>
+      <Dependent Role="Inscripcion">
+        <PropertyRef Name="Curso_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Inscripci__Estud__3C69FB99">
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="0..1" />
+    <End Role="Inscripcion" Type="Self.Inscripcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estudiante">
+        <PropertyRef Name="EstudianteID" />
+      </Principal>
+      <Dependent Role="Inscripcion">
+        <PropertyRef Name="Estudiante_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pago__Inscripcio__4316F928">
+    <End Role="Inscripcion" Type="Self.Inscripcion" Multiplicity="0..1" />
+    <End Role="Pago" Type="Self.Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Inscripcion">
+        <PropertyRef Name="InscripcionID" />
+      </Principal>
+      <Dependent Role="Pago">
+        <PropertyRef Name="InscripcionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AcademiaSistemasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Calificacions" EntityType="Self.Calificacion" />
+    <EntitySet Name="Cursoes" EntityType="Self.Curso" />
+    <EntitySet Name="Estudiantes" EntityType="Self.Estudiante" />
+    <EntitySet Name="Inscripcions" EntityType="Self.Inscripcion" />
+    <EntitySet Name="Pagoes" EntityType="Self.Pago" />
+    <EntitySet Name="Profesors" EntityType="Self.Profesor" />
+    <AssociationSet Name="FK__Calificac__Curso__403A8C7D" Association="Self.FK__Calificac__Curso__403A8C7D">
+      <End Role="Curso" EntitySet="Cursoes" />
+      <End Role="Calificacion" EntitySet="Calificacions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Calificac__Estud__3F466844" Association="Self.FK__Calificac__Estud__3F466844">
+      <End Role="Estudiante" EntitySet="Estudiantes" />
+      <End Role="Calificacion" EntitySet="Calificacions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Inscripci__Curso__3B75D760" Association="Self.FK__Inscripci__Curso__3B75D760">
+      <End Role="Curso" EntitySet="Cursoes" />
+      <End Role="Inscripcion" EntitySet="Inscripcions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Inscripci__Estud__3C69FB99" Association="Self.FK__Inscripci__Estud__3C69FB99">
+      <End Role="Estudiante" EntitySet="Estudiantes" />
+      <End Role="Inscripcion" EntitySet="Inscripcions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pago__Inscripcio__4316F928" Association="Self.FK__Pago__Inscripcio__4316F928">
+      <End Role="Inscripcion" EntitySet="Inscripcions" />
+      <End Role="Pago" EntitySet="Pagoes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

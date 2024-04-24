@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|d:\\1. biblioteca usuario\\desktop\\academiasistemasproyecto\\servicios_academia\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|solutionrelative:controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\clases\\clsestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|solutionrelative:clases\\clsestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Servicios_Academia||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|solutionrelative:models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\models\\dbacademia.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|solutionrelative:models\\dbacademia.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836EEB55-70B1-4FB1-8105-CE2D5285DD30}|Servicios_Academia.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Servicios_Academia",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Servicios_Academia.csproj",
+              "RelativeDocumentMoniker": "Servicios_Academia.csproj",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Servicios_Academia.csproj",
+              "RelativeToolTip": "Servicios_Academia.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-23T23:28:09.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsEstudiante.cs",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Clases\\clsEstudiante.cs",
+              "RelativeDocumentMoniker": "Clases\\clsEstudiante.cs",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Clases\\clsEstudiante.cs",
+              "RelativeToolTip": "Clases\\clsEstudiante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:58:54.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EstudianteController.cs",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Controllers\\EstudianteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstudianteController.cs",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Controllers\\EstudianteController.cs",
+              "RelativeToolTip": "Controllers\\EstudianteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T00:00:07.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Models\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Models\\Estudiante.cs",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Models\\Estudiante.cs",
+              "RelativeToolTip": "Models\\Estudiante.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:08:52.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBAcademia.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Models\\DBAcademia.edmx",
+              "RelativeDocumentMoniker": "Models\\DBAcademia.edmx",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\Servicios_Academia\\Models\\DBAcademia.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\Uni\\2024-1\\Servicios_Academia\\Models\\DBAcademia.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-23T16:57:57.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-23T16:24:57.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T00:39:00.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\AcademiaSistemasProyecto\\Servicios_Academia\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T00:39:55.819Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
