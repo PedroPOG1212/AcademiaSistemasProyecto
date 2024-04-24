@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B489B9D-A5A3-42C5-AF45-98A88C4AF7A8}|WebAcademia.csproj|d:\\1. biblioteca usuario\\desktop\\uni\\2024-1\\webacademia\\paginas\\estudiante.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B489B9D-A5A3-42C5-AF45-98A88C4AF7A8}|WebAcademia.csproj|solutionrelative:paginas\\estudiante.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B489B9D-A5A3-42C5-AF45-98A88C4AF7A8}|WebAcademia.csproj|D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\paginas\\scripts\\estudiante.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2B489B9D-A5A3-42C5-AF45-98A88C4AF7A8}|WebAcademia.csproj|solutionrelative:paginas\\scripts\\estudiante.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WebAcademia||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B489B9D-A5A3-42C5-AF45-98A88C4AF7A8}|WebAcademia.csproj|d:\\1. biblioteca usuario\\desktop\\uni\\2024-1\\webacademia\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebAcademia",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\WebAcademia.csproj",
+              "RelativeDocumentMoniker": "WebAcademia.csproj",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\WebAcademia.csproj*",
+              "RelativeToolTip": "WebAcademia.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-23T23:20:03.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estudiante.js",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\Paginas\\Scripts\\Estudiante.js",
+              "RelativeDocumentMoniker": "Paginas\\Scripts\\Estudiante.js",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\Paginas\\Scripts\\Estudiante.js",
+              "RelativeToolTip": "Paginas\\Scripts\\Estudiante.js",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAqwJwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T20:07:06.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Estudiante.html",
+              "DocumentMoniker": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\Paginas\\Estudiante.html",
+              "RelativeDocumentMoniker": "Paginas\\Estudiante.html",
+              "ToolTip": "D:\\1. Biblioteca Usuario\\Desktop\\Uni\\2024-1\\WebAcademia\\Paginas\\Estudiante.html",
+              "RelativeToolTip": "Paginas\\Estudiante.html",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwF4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-23T20:05:51.512Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
